@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="css.css"/>
+    
+    <title>Avian | Status</title>
+
+  </head>
+
+  <body>
+    
+    <!-- hack for IE: -->
+    <div class="bgmiddle"><hr/></div>
+    <!-- hack for other browsers: -->
+    <div class="bgmiddle-fixed"></div>
+
+    <!-- start top -->
+    <div class="topleft">
+      
+      <img src="kite.png" class="icon"
+           width="110" height="73" alt="kite"/>
+
+    </div>
+
+    <div class="topmiddle">
+
+      <div style="margin: 8px 6px 2px 8px;
+                  font-size: 36px;">Avian</div>
+      <span style="font-style: italic; margin: 6px 6px 0px 8px;"
+            >A lightweight alternative to Java</span>
+      <!-- hack for IE: --><hr/>
+
+    </div>
+    <!-- end top -->
+    
+    <!-- start body -->  
+    <div class="middle">
+      <div style="max-width: 640px">
+      
+      
+<h2>Status</h2>
+
+<h3>Current Release</h3>
+<p>
+  The latest release is version 0.7.  As of this release, everything
+  should work as advertised on the supported platforms.  Please post
+  to the <a href="http://groups.google.com/group/avian">discussion
+  group</a> if you have any problems.
+</p>
+
+<a href="avian-0.7.tar.bz2">
+  <div class="code">
+    Download Avian 0.7
+  </div>
+</a>
+
+<p>
+  Recent changes:
+</p>
+<ul>
+  <li>Lots of bugfixes throughout the code</li>
+  <li>Added support for FreeBSD</li>
+  <li>Improved Scala support</li>
+  <li>Added support for building against the Android/Harmony class library as an alternative to the OpenJDK and Avian libraries</li>
+  <li>Removed official support for OS X on PowerPC (the code remains intact for now, but not officially supported)</li>
+</ul>
+
+<h3>Future Releases</h3>
+<p>
+  The next planned release is 1.0.  No new features or architectural
+  changes are planned except as necessary to fix bugs and to improve
+  application compatibility for the OpenJDK port.  The main goal is to
+  find and fix as many bugs as possible.
+</p>
+
+<h3>Post-1.0 Ideas</h3>
+<ul>
+  <li>Experiment with trace-based JIT compilation</li>
+  <li>Improve ahead-of-time compilation using <a
+  href="http://llvm.org/">LLVM</a></li>
+  <li>Add support for ahead-of-time escape analysis and bytecode
+  annotation to indicate where objects may be safely allocated on the
+  stack instead of the heap</li>
+  <li>Rework memory allocation in garbage collector to improve
+  performance in low memory situations
+  (see <a href="http://groups.google.com/group/avian/browse_thread/thread/5b3f13bf198334b3">here</a>
+  for details)</li>
+  <li>Experiment with optimizations and extensions to better support
+  languages other than Java
+    <ul>
+      <li>First-class functions</li>
+      <li>Lazy evaluation</li>
+      <li><a href="http://jcp.org/en/jsr/detail?id=292">invokedynamic</a></li>
+    </ul>
+  </li>
+  <li>Support additional architectures such as MIPS and 64-bit PowerPC</li>
+</ul>
+
+
+
+      </div>
+      <!-- hack for IE: --><hr/>
+
+    </div>
+    <!-- end body -->
+
+    <!-- start icons -->
+<!-- this is a bit distracting, so I'm leaving it out
+    <div class="icons">
+
+
+      <a href="http://validator.w3.org/check/referer">
+        <img class="icon" src="http://www.w3.org/Icons/valid-xhtml11"
+             width="88" height="31" alt="Valid XHTML 1.1"/>
+      </a>
+
+    </div> -->
+    <!-- end icons -->
+
+    <!-- start navigation sidebar -->
+    <div class="left">
+
+      <ul>
+
+        <li><div class="le"><a href="index.html">about</a></div></li>
+        <li><div class="les">status</div></li>
+        <li><div class="le"><a href="examples.html">examples</a></div></li>
+
+        <li><div class="le">code</div>
+
+          <ul>
+
+            <li><div class="le"><a href="https://github.com/ReadyTalk/avian">repository</a></div></li>
+            <li><div class="le"><a href="license.html">license</a></div></li>
+
+          </ul>
+        </li>
+
+        <li><div class="le">documentation</div>
+
+          <ul>
+
+            <li><div class="le"><a href="https://github.com/ReadyTalk/avian/blob/e07a1e2f572fc08e0b1b9eec65c9df46a9ed2850/README.md">building</a></div></li>
+            <li><div class="le"><a href="javadoc/index.html">javadoc</a></div></li>
+
+          </ul>
+        </li>
+
+        <li><div class="le"><a href="http://groups.google.com/group/avian">discussion</a></div></li>
+
+      </ul>
+
+    </div>
+    <!-- end navigation sidebar -->
+
+  </body>
+</html>
+
