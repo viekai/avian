@@ -17,6 +17,7 @@ java.security.cert
 java.text
 java.util
 java.util.concurrent
+java.util.concurrent.atomic
 java.util.jar
 java.util.logging
 java.util.regex
